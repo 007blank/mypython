@@ -6,7 +6,6 @@ def fibonacci(n):
     while (n>0):
         arr.append(a)
         a,b=b,a+b
-        '''arr.append(b)'''
         n-=1
     return arr
 no=int(input("enter the value of n for the fibonacci series:"))
